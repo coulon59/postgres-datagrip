@@ -39,16 +39,16 @@ The Chinook database consists of the following main tables:
 
 ### Prerequisites
 
-- PostgreSQL 12+ installed and running
+- PostgreSQL 15+ installed and running
 - JetBrains DataGrip (recommended) or any PostgreSQL client
 - Basic understanding of SQL fundamentals
 
-### Setup Instructions
+### Setup Instructions on chinook-database repo
 
 1. **Clone this repository**:
    ```bash
-   git clone <repository-url>
-   cd postgres-datagrip
+   git clone https://github.com/crunchy-devops/chinook-database.git
+   cd chinook-database
    ```
 
 2. **Create the database**:
