@@ -14,7 +14,7 @@ WHERE EXISTS (
     WHERE i.customer_id = c.customer_id
 );
 
--- 3) Cas avec plusieurs jointures : clients qui ont acheté au moins une piste d’un genre donné
+-- 3) Cas avec plusieurs jointures : clients qui ont acheté au moins une track d’un genre donné
 -- Version DISTINCT
 SELECT DISTINCT c.customer_id, c.first_name, c.last_name, g.name AS genre
 FROM customer c
